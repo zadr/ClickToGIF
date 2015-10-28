@@ -7,13 +7,18 @@ class ViewController: UIViewController {
 
 		let url = NSBundle.mainBundle().URLForResource("puppy", withExtension: "gif")!
 		let operation = CQIntroductoryGIFFrameOperation(URL: url)
-		operation.completionBlock = {
-			print("Completed gif frame after reading " + String(operation.introductoryFrameImageData!.length) + " bytes")
 
-			self.setImage(operation.introductoryFrameImage)
-		}
+		// see note in CQIntroductoryGIFFrameOperation about using blocks vs kvo vs target/action here
+		operation.target = self
+		operation.action = "gifProcessed:"
 
 		NSOperationQueue.mainQueue().addOperation(operation)
+	}
+
+	@objc func gifProcessed(operation: CQIntroductoryGIFFrameOperation) {
+		print("Completed gif frame after reading " + String(operation.introductoryFrameImageData!.length) + " bytes")
+
+		self.setImage(operation.introductoryFrameImage)
 	}
 
 	@IBAction func playAnimatedGif(sender: UIButton?) {
