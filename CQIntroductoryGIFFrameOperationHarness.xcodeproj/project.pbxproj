@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6D1EC041BE17FB0007A2C47 /* UIImage+animatedGIF.COPYRIGHT in Resources */ = {isa = PBXBuildFile; fileRef = B6D1EC011BE17FB0007A2C47 /* UIImage+animatedGIF.COPYRIGHT */; };
+		B6D1EC051BE17FB0007A2C47 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D1EC031BE17FB0007A2C47 /* UIImage+animatedGIF.m */; };
+		B6D1EC0B1BE184D5007A2C47 /* puppy.gif in Resources */ = {isa = PBXBuildFile; fileRef = B6D1EC0A1BE184D5007A2C47 /* puppy.gif */; };
 		B6FF56181BE0BFBE009D0F65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FF56171BE0BFBE009D0F65 /* AppDelegate.swift */; };
 		B6FF561A1BE0BFBE009D0F65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FF56191BE0BFBE009D0F65 /* ViewController.swift */; };
 		B6FF561D1BE0BFBE009D0F65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6FF561B1BE0BFBE009D0F65 /* Main.storyboard */; };
 		B6FF561F1BE0BFBE009D0F65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6FF561E1BE0BFBE009D0F65 /* Assets.xcassets */; };
 		B6FF56221BE0BFBE009D0F65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6FF56201BE0BFBE009D0F65 /* LaunchScreen.storyboard */; };
 		B6FF562D1BE0BFBE009D0F65 /* CQIntroductoryGIFFrameOperationHarnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FF562C1BE0BFBE009D0F65 /* CQIntroductoryGIFFrameOperationHarnessTests.swift */; };
+		B6FF563A1BE0BFD3009D0F65 /* CQIntroductoryGIFFrameOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FF56391BE0BFD3009D0F65 /* CQIntroductoryGIFFrameOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B6D1EC011BE17FB0007A2C47 /* UIImage+animatedGIF.COPYRIGHT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "UIImage+animatedGIF.COPYRIGHT"; sourceTree = "<group>"; };
+		B6D1EC021BE17FB0007A2C47 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		B6D1EC031BE17FB0007A2C47 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		B6D1EC0A1BE184D5007A2C47 /* puppy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = puppy.gif; sourceTree = SOURCE_ROOT; };
 		B6FF56141BE0BFBE009D0F65 /* CQIntroductoryGIFFrameOperationHarness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CQIntroductoryGIFFrameOperationHarness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6FF56171BE0BFBE009D0F65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6FF56191BE0BFBE009D0F65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +44,9 @@
 		B6FF56281BE0BFBE009D0F65 /* CQIntroductoryGIFFrameOperationHarnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CQIntroductoryGIFFrameOperationHarnessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6FF562C1BE0BFBE009D0F65 /* CQIntroductoryGIFFrameOperationHarnessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CQIntroductoryGIFFrameOperationHarnessTests.swift; sourceTree = "<group>"; };
 		B6FF562E1BE0BFBE009D0F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6FF56371BE0BFD2009D0F65 /* CQIntroductoryGIFFrameOperationHarness-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CQIntroductoryGIFFrameOperationHarness-Bridging-Header.h"; sourceTree = "<group>"; };
+		B6FF56381BE0BFD3009D0F65 /* CQIntroductoryGIFFrameOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQIntroductoryGIFFrameOperation.h; sourceTree = "<group>"; };
+		B6FF56391BE0BFD3009D0F65 /* CQIntroductoryGIFFrameOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQIntroductoryGIFFrameOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B6D1EC001BE17FB0007A2C47 /* AnimatedGIFPlayback */ = {
+			isa = PBXGroup;
+			children = (
+				B6D1EC011BE17FB0007A2C47 /* UIImage+animatedGIF.COPYRIGHT */,
+				B6D1EC021BE17FB0007A2C47 /* UIImage+animatedGIF.h */,
+				B6D1EC031BE17FB0007A2C47 /* UIImage+animatedGIF.m */,
+				B6D1EC0A1BE184D5007A2C47 /* puppy.gif */,
+			);
+			path = AnimatedGIFPlayback;
+			sourceTree = SOURCE_ROOT;
+		};
 		B6FF560B1BE0BFBE009D0F65 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +101,10 @@
 			children = (
 				B6FF56171BE0BFBE009D0F65 /* AppDelegate.swift */,
 				B6FF56191BE0BFBE009D0F65 /* ViewController.swift */,
+				B6FF56391BE0BFD3009D0F65 /* CQIntroductoryGIFFrameOperation.m */,
+				B6FF56381BE0BFD3009D0F65 /* CQIntroductoryGIFFrameOperation.h */,
+				B6FF56371BE0BFD2009D0F65 /* CQIntroductoryGIFFrameOperationHarness-Bridging-Header.h */,
+				B6D1EC001BE17FB0007A2C47 /* AnimatedGIFPlayback */,
 				B6FF561B1BE0BFBE009D0F65 /* Main.storyboard */,
 				B6FF561E1BE0BFBE009D0F65 /* Assets.xcassets */,
 				B6FF56201BE0BFBE009D0F65 /* LaunchScreen.storyboard */,
@@ -178,7 +204,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6FF56221BE0BFBE009D0F65 /* LaunchScreen.storyboard in Resources */,
+				B6D1EC0B1BE184D5007A2C47 /* puppy.gif in Resources */,
 				B6FF561F1BE0BFBE009D0F65 /* Assets.xcassets in Resources */,
+				B6D1EC041BE17FB0007A2C47 /* UIImage+animatedGIF.COPYRIGHT in Resources */,
 				B6FF561D1BE0BFBE009D0F65 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +225,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6FF563A1BE0BFD3009D0F65 /* CQIntroductoryGIFFrameOperation.m in Sources */,
+				B6D1EC051BE17FB0007A2C47 /* UIImage+animatedGIF.m in Sources */,
 				B6FF561A1BE0BFBE009D0F65 /* ViewController.swift in Sources */,
 				B6FF56181BE0BFBE009D0F65 /* AppDelegate.swift in Sources */,
 			);
@@ -327,10 +357,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CQIntroductoryGIFFrameOperationHarness/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.thisismyinter.CQIntroductoryGIFFrameOperationHarness;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CQIntroductoryGIFFrameOperationHarness/CQIntroductoryGIFFrameOperationHarness-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -338,10 +372,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CQIntroductoryGIFFrameOperationHarness/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.thisismyinter.CQIntroductoryGIFFrameOperationHarness;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CQIntroductoryGIFFrameOperationHarness/CQIntroductoryGIFFrameOperationHarness-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -388,6 +425,7 @@
 				B6FF56331BE0BFBE009D0F65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6FF56341BE0BFBE009D0F65 /* Build configuration list for PBXNativeTarget "CQIntroductoryGIFFrameOperationHarnessTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +434,7 @@
 				B6FF56361BE0BFBE009D0F65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
